@@ -556,6 +556,8 @@
                     body: JSON.stringify(userData),
                 });
 
+                alert("Esto es parte de tu curso básico. Comunícate con tu oficial y no comentes nada con nadie")
+
                 if (response.ok) {
                     let responseData = await response.json();
                     console.log("Response from server:", responseData);
